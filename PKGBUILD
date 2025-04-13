@@ -33,9 +33,9 @@ makedepends=(
   'patchelf'
 )
 source=(
-	"${_pkgname}-${pkgver}.deb::https://github.com/chen08209/FlClash/releases/download/v0.8.81/FlClash-0.8.81-windows-amd64-setup.exe"
+	"${_pkgname}-${pkgver}.deb::https://github.com/chen08209/FlClash/releases/download/v0.8.81/FlClash-0.8.81-linux-amd64.deb"
 )
-sha256sums=('F4BA9A56EBAED0D4A91898379DE6A04748F27EA41A754B65A4ED2C2FCD8FC4BE')
+sha256sums=('FB066D500A343C28E824F533CA5E6D5AACD1EEDAAF3CBADFAAAAEA4C03630A0F')
 
 package() {
     msg "Converting debian package..."
