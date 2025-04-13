@@ -1,7 +1,7 @@
 # Maintainer: Dee.H.Y <dongfengweixiao AT hotmail DOT com>
 pkgname=flclash-bin
 _pkgname=flclash
-pkgver=0.8.80
+pkgver=0.8.81
 pkgrel=1
 pkgdesc="A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free."
 arch=('x86_64')
@@ -33,9 +33,9 @@ makedepends=(
   'patchelf'
 )
 source=(
-	"${_pkgname}-${pkgver}.deb::https://tries.nyc.mn/FlClash-0.8.80-linux-amd64.deb"
+	"${_pkgname}-${pkgver}.deb::https://github.com/chen08209/FlClash/releases/download/v0.8.81/FlClash-0.8.81-windows-amd64-setup.exe"
 )
-sha256sums=('AAE58195BB0B07C4D266F20CFFFD78410B11DB8259F04CA9689D559F83F2B1A4')
+sha256sums=('F4BA9A56EBAED0D4A91898379DE6A04748F27EA41A754B65A4ED2C2FCD8FC4BE')
 
 package() {
     msg "Converting debian package..."
